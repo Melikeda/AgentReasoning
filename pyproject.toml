@@ -1,0 +1,20 @@
+[project]
+name = "agentreasoning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Melike Kulahci", email = "128312380+Melikeda@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "ollama>=0.6.3",
+]
+
+[project.scripts]
+agentreasoning = "agentreasoning:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
